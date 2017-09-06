@@ -2,4 +2,4 @@
 
 Videos:
 
-https://youtu.be/1lIwqWDjTzY
+ - Python Fundamentals II: https://youtu.be/1lIwqWDjTzY
