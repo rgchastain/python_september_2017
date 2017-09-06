@@ -1,5 +1,6 @@
 # python_september_2017
 
 Videos:
-
- - Python Fundamentals II: https://youtu.be/1lIwqWDjTzY
+ - Python Fundamental II:
+ - Lecture: https://youtu.be/1lIwqWDjTzY
+ - Demo: https://youtu.be/szqnHnQLuVk
