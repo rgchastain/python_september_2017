@@ -76,11 +76,11 @@ call4 = Call('Chel', 456, 1, 20, "inaudible")
 call5 = Call('Annie', 879, 6, 30, "question")
 
 # Add calls using .add() method
-callcenter1.add(call1)
-callcenter1.add(call2)
-callcenter1.add(call3)
-callcenter1.add(call4)
-callcenter1.add(call5)
+
+incoming = [call1, call2, call3, call4, call5]
+
+for calls in incoming :
+    CallCenter.calls.add(calls)
 
 # Print info using .info() method, which calls .display() method in the Call class
 callcenter1.info()
