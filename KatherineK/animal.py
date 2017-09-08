@@ -6,14 +6,17 @@ class Animal(object) :
         self.name = name
         print self.name + " created"
 
-    def walk(self):
-        self.health -= 1
+    def walk(self, repeat):
+        self.health -= 1 * repeat
+        return self
 
-    def run(self):
-        self.health -= 5
+    def run(self, repeat):
+        self.health -= 5 * repeat
+        return self
 
     def display_health(self):
         print self.health
+        return self
 
 #Creating three instances of Animal class
 GwendolyntheGiraffe = Animal("Gwen")
@@ -21,29 +24,22 @@ LarrytheLion = Animal("Larry")
 BobtheBear = Animal("Bob")
 
 #Walking and Running an instance of Animal class
-for i in range (0, 3):
-    BobtheBear.walk()
-for i in range (0, 2):
-    BobtheBear.run()
-BobtheBear.display_health()
+
+BobtheBear.walk(3).run(2).display_health()
 
 # create class Dog, inheriting traits from Animal, with method .pet()
 class Dog(Animal) :
     def __init__(self, name, health):
         super(Dog, self).__init__(name, health)
 
-    def pet(self):
-        self.health += 5
+    def pet(self, repeat):
+        self.health += 5 * repeat
+        return self
 
 # Create instance of Dog, call methods .run(), .walk(), and .pet()
 
 Rowdy = Dog("Rowdy", 150)
-for i in range (0, 3):
-    Rowdy.walk()
-for i in range (0, 2):
-    Rowdy.run()
-Rowdy.pet()
-Rowdy.display_health()
+Rowdy.walk(3).run(2).pet(1).display_health()
 
 
 # Create class Dragon, inheriting from Animal, with method .fly()
