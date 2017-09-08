@@ -23,4 +23,8 @@ Videos:
  Python OOP
  - Demo: https://youtu.be/fS6CkzwdAA0
  
+ MySQL ERDs (Entity Relationship Diagrams):
+ - Demo: https://youtu.be/pplmDP2Y4ro
  
+ MySQL Queries:
+ - Demo: https://youtu.be/OQUviHzepDM
