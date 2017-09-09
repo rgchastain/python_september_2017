@@ -168,4 +168,3 @@ def initiatenewpatient():
 
 initiatenewpatient()
 
-# Select treatment plan:
