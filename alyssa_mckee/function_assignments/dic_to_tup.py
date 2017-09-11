@@ -1,8 +1,8 @@
 def dic_to_tup(dict):
-	arr = []
+	tup = ()
 	for key,val in dict.items():
-		arr.append((key,val))
-	return arr
+		tup+=(key,val)
+	return tup
 	
 
 my_dict = {
