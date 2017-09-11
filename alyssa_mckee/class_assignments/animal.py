@@ -23,7 +23,7 @@ class Dragon(Animal):
 	def __init__(self, name, health=170):
 		super(Dragon, self).__init__(name, health)
 	def fly(self):
-		self.health_=10
+		self.health-=10
 		return self
 	def display_health(self):
 		super(Dragon, self).display_health()
