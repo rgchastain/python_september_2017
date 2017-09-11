@@ -28,3 +28,6 @@ Videos:
  
  MySQL Queries:
  - Demo: https://youtu.be/OQUviHzepDM
+ 
+ Intro to Flask:
+ - Demo: https://youtu.be/OsNEMRwPH8w
