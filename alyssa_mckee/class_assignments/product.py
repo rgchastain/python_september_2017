@@ -14,13 +14,14 @@ class Product(object):
 	def add_tax(self, tax):
 		return format(self.price + self.price*tax, '.2f')
 	
-	def Return(self, reason):
-		if reason.lower().find("defective") > -1:
+	def return_item(self, reason):
+		reason = reason.lower()
+		if reason.find("defective") > -1:
 			self.status = "defective"
 			self.price = 0
-		if reason.lower().find("like new") > -1:
+		if .find("like new") > -1:
 			self.status = "for sale"
-		if reason.lower().find("opened") > -1:
+		if reason.find("opened") > -1:
 			self.status = "used"
 			self.price = self.price*.80
 		return self
@@ -35,4 +36,4 @@ print(ball.add_tax(.0825))
 print()
 ball.sell().display_info()
 print()
-ball.Return("opened the box, it was the wrong color").display_info()
+ball.return_item("opened the box, it was the wrong color").display_info()
