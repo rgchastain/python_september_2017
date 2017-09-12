@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ninja Money</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+	<!-- <link rel="stylesheet" type="text/css" href="../static/styles.css"> -->
+</head>
+<body>
+	<div id="head">
+		<p>your gold: <span>{{ gold }}</span></p>
+	</div>
+
+	<form action="/process_money" method="POST">
+
+		<div id="farm">
+			<h2>Farm</h2>
+			<p>(earns 10-20 gold)</p>
+			<button name="building" value="farm" type="submit">Find Gold!</button>
+		</div>
+		<div id="cave">
+			<h2>Cave</h2>
+			<p>(earns 5-10 gold)</p>
+			<button name="building" value="cave" type="submit">Find Gold!</button>
+		</div>
+		<div id="house">
+			<h2>House</h2>
+			<p>(earns 2-5 gold)</p>
+			<button name="building" value="house" type="submit">Find Gold!</button>
+		</div>
+		<div id="casino">
+			<h2>Casino</h2>
+			<p>(earns/takes 0-50 gold)</p>
+			<button name="building" value="casino" type="submit">Find Gold!</button>
+		</div>
+
+	</form>
+	<footer>
+	<p>activities:</p>
+	<div id="activities">
+	{% if activities %}
+		{% for x in range(activities|length-1,-1,-1) %}
+			<p class={{ "green" if activities[x].find("lost")== -1 else "red" }}>{{ activities[x] }}</p>
+	
+
+		{% endfor %}
+	{% endif %}
+	</div>
+	<form action="/new" method="POST"><button type="submit" value="submit">New Game</button></form>
+	</footer>
+
+
+
+
+</body>
+</html>
