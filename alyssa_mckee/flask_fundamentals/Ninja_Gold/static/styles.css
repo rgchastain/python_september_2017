@@ -9,9 +9,10 @@
 }
 
 #head span{
-	border: 1px solid gold;
+	border: 1px solid black;
 	padding: 3px;
 	padding-right: 40px;
+	background: gold;
 }
 
 form div{
@@ -22,7 +23,20 @@ form div{
 	border: 1px solid black;
 	text-align: center;
 	padding: 50px 0px;
+	color: white;
 }
+#farm {
+	background: linear-gradient(to bottom, limegreen, #784212 );
+}
+#cave{
+	background: linear-gradient(to bottom, black 50%, #784212);
+}
+#casino{
+	background: linear-gradient(to bottom, yellow, blue, yellow)
+}
+
+
+
 button{
 	margin-top: 20px;
 

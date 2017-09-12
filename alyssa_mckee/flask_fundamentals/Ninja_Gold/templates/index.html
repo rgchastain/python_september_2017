@@ -7,8 +7,9 @@
 	<!-- <link rel="stylesheet" type="text/css" href="../static/styles.css"> -->
 </head>
 <body>
+	<h1>Ninja Gold Game</h1>
 	<div id="head">
-		<p>your gold: <span>{{ gold }}</span></p>
+		<h3>your gold: <span>{{ gold }}g</span></h3>
 	</div>
 
 	<form action="/process_money" method="POST">
@@ -23,7 +24,7 @@
 			<p>(earns 5-10 gold)</p>
 			<button name="building" value="cave" type="submit">Find Gold!</button>
 		</div>
-		<div id="house">
+		<div id="house" style="background:url({{ url_for('static',filename='bricks.jpg') }});">
 			<h2>House</h2>
 			<p>(earns 2-5 gold)</p>
 			<button name="building" value="house" type="submit">Find Gold!</button>
@@ -36,7 +37,7 @@
 
 	</form>
 	<footer>
-	<p>activities:</p>
+	<h3>activities:</h3>
 	<div id="activities">
 	{% if activities %}
 		{% for x in range(activities|length-1,-1,-1) %}
