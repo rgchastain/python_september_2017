@@ -31,3 +31,6 @@ Videos:
  
  Intro to Flask:
  - Demo: https://youtu.be/OsNEMRwPH8w
+ 
+ Flask session/flash:
+ - Demo: https://youtu.be/yJMrrn_SiTM
