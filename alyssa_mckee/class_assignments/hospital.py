@@ -10,10 +10,9 @@ class Hospital(object):
 				self.beds[num] = patient
 				patient.bed = num
 				print("Admission complete")
-				break
-		else:
-			#cant admit
-			print("Patient cannot be admitted, the Hospital is full")
+				return self
+		#cant admit
+		print("Patient cannot be admitted, the Hospital is full")
 		return self
 
 	def discharge(self,name_or_id):
@@ -49,7 +48,7 @@ class Patient(object):
 	def info(self):
 		print("Name: {} \nId: {} \nAllergies: {} \nBed: {}".format(self.name, self.id, self.allergies, self.bed))
 		
-h = Hospital("Holy Hospital", 3)
+h = Hospital("Holy Hospital", 2)
 h.info()
 harry = Patient("Harry", "none")
 h.admit(harry).admit(Patient("Ron", "carrots")).admit(Patient("Hermoine", "none")).info()
