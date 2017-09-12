@@ -9,6 +9,6 @@ def index():
 def process_form():
     print request.form
     name = request.form ['name']
-    return render_template("process.html")
+    return render_template("process.html", name=name)
 
 app.run(debug=True)
