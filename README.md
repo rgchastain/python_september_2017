@@ -34,3 +34,6 @@ Videos:
  
  Flask session/flash:
  - Demo: https://youtu.be/yJMrrn_SiTM
+
+ Flask with MySQL:
+ - Demo: https://youtu.be/IeGtsCOESp8
