@@ -1,18 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     
     <title>Document</title>
 </head>
 <body>
-   {% for data in data %}
+   
         <h2>Submitted Info</h2>
-        <h3>Name={{ data.name }}</h3>
-        <h3>Dojo Location:{{data.Dojo Location}}</h3>
-        <h3>Favorite Language:{{data.favorite language}}</h3>    
-        <h3>Comment:{{data.comment}}</h3>
+        <p>Name:{{ data.name }}</p>
+        <p>Dojo Location:{{data.location}}</p>
+        <p>Favorite Language:{{data.language}}</p>    
+        <p>Comment:{{data.comment if data.comment != "" else "No comment"}}</p>
 
-    {% endfor %}
+
     
 </body>
 </html>
