@@ -43,3 +43,6 @@ Videos:
  
  Group Projects: 
  - Roshambo: https://youtu.be/r1cDHSA7Uu8
+ 
+ Algorithms:
+ - How to: https://youtu.be/va7o8NIaIp4
