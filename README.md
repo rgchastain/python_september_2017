@@ -37,3 +37,9 @@ Videos:
 
  Flask with MySQL:
  - Demo: https://youtu.be/IeGtsCOESp8
+ 
+ Flask login and registration:
+ - Demo: https://youtu.be/Tylw4PWWR0o
+ 
+ Group Projects: 
+ - Roshambo: https://youtu.be/r1cDHSA7Uu8
