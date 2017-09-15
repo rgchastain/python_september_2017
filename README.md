@@ -44,6 +44,9 @@ Videos:
  Django Intro:
  - Demo: https://youtu.be/VP3JhEZ94KI
  
+ Django Setup:
+ - Demo: https://youtu.be/LJzftXkXEBs
+ 
  Group Projects: 
  - Roshambo: https://youtu.be/r1cDHSA7Uu8
  
