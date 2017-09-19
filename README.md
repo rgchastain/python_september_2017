@@ -50,6 +50,9 @@ Videos:
  Django Basics:
  - Demo: https://youtu.be/M8D5LMKkz5s
  
+ Django Models and Queries:
+ - Demo: https://youtu.be/pTeCV2tZwWI
+ 
  Group Projects: 
  - Roshambo: https://youtu.be/r1cDHSA7Uu8
  
