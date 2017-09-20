@@ -53,6 +53,9 @@ Videos:
  Django Models and Queries:
  - Demo: https://youtu.be/pTeCV2tZwWI
  
+ Startint the Semi Restful Assignment:
+ - Demo: https://youtu.be/2nn2GHeaDoE
+ 
  Group Projects: 
  - Roshambo: https://youtu.be/r1cDHSA7Uu8
  
