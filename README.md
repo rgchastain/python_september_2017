@@ -41,5 +41,21 @@ Videos:
  Flask login and registration:
  - Demo: https://youtu.be/Tylw4PWWR0o
  
+ Django Intro:
+ - Demo: https://youtu.be/VP3JhEZ94KI
+ 
+ Django Setup:
+ - Demo: https://youtu.be/LJzftXkXEBs
+ 
+ Django Basics:
+ - Demo: https://youtu.be/M8D5LMKkz5s
+ 
+ Django Models and Queries:
+ - Demo: https://youtu.be/pTeCV2tZwWI
+ 
  Group Projects: 
  - Roshambo: https://youtu.be/r1cDHSA7Uu8
+ 
+ 
+ Algorithms:
+ - How to: https://youtu.be/va7o8NIaIp4
